@@ -1,0 +1,357 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background: black;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #282828;
+    transform: translateY(0);
+    transition: transform .3s;
+}
+
+.nav-contents a img {
+    border-radius: 8px;
+}
+
+main .container {
+    display: grid;
+    grid-template-columns: 1063.43px auto;
+    background: yellow;
+    height: 598.167px;
+}
+
+.gitem1 {
+    background-image: url('https://videos-rockstargames-com.akamaized.net/screencaps/12258/_global/1920.jpg');
+    background-size: contain;
+}
+
+.gitem2 {
+    background: black;
+    /* border: 2px solid black; */
+    padding: 5px;
+}
+
+.gitem2 p {
+    cursor: pointer;
+    font-family: 'Noto Sans', sans-serif;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    position: relative;
+    top: 83px;
+    left: 30px;
+}
+
+
+.container1 h2 {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 32px;
+    color: white;
+    position: relative;
+    top: 90px;
+    left: 30px;
+    cursor: pointer;
+}
+
+.gitem2 input {
+    width: 244.683px;
+    height: 61.6px;
+    font-family: "Noto Sans";
+    font-weight: bold;
+    font-size: 20px;
+    border: 1px solid white;
+    background: black;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    position: relative;
+    top: 118px;
+    left: 30px;
+}
+
+.gitem2 input:hover {
+    width: 244.683px;
+    height: 61.6px;
+    font-family: "Noto Sans";
+    font-weight: bold;
+    font-size: 20px;
+    border: 1px solid white;
+    background: #fcaf17;
+    color: #0b0b0b;
+    border-radius: 8px;
+    cursor: pointer;
+    left: 30px;
+    top: 118px;
+}
+
+.container2 {
+    height: 700.4px;
+    background: black;
+    display: flex;
+
+    justify-content: space-around;
+
+}
+
+.gitem3 {
+    width: 433.067px;
+    height: 646.167px;
+    background: black;
+  
+    margin-top: 1px;
+    border-radius: 10px;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.gitem4 {
+    width: 433.067px;
+    height: 646.167px;
+    background: black;
+   
+    margin-top: 1px;
+    border-radius: 10px;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.gitem5 {
+    width: 433.067px;
+    height: 646.167px;
+    background: black;
+  
+    margin-top: 1px;
+    border-radius: 10px;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+section {
+    padding: 41px;
+    font-family: 'Noto Sans', sans-serif;
+    color: white;
+    background: #0b0b0b;
+}
+
+.container3 {
+
+    height: 700.4px;
+    background: #0b0b0b;
+    display: flex;
+    justify-content: space-around;
+}
+
+.gitem6 {
+    width: 433.067px;
+    height: 646.167px;
+    background: black;
+  
+    margin-top: 1px;
+    border-radius: 10px;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.gitem7 {
+    width: 433.067px;
+    height: 646.167px;
+    background: black;
+    
+    margin-top: 1px;
+    border-radius: 10px;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.gitem8 {
+    width: 433.067px;
+    height: 646.167px;
+    background: black;
+    
+    margin-top: 1px;
+    border-radius: 10px;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.container4 {
+    height: 480.4px;
+    background: #0b0b0b;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.gitem9 {
+    width: 317.3px;
+    height: 391.6px;
+    background: black;
+
+    margin-top: 1px;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.gitem10 {
+    width: 317.3px;
+    cursor: pointer;
+    border-radius: 6px;
+    height: 391.6px;
+    background: black;
+   
+    margin-top: 1px;
+    border-radius: 13px
+}
+
+.gitem11 {
+    width: 317.3px;
+    height: 391.6px;
+    background: black;
+  
+    margin-top: 1px;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.gitem12 {
+    width: 317.3px;
+    height: 391.6px;
+    background: #000;
+
+    margin-top: 1px;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.container5 {
+    height: 200px;
+    background: #000;
+}
+
+.container5 .a {
+    padding: 51px;
+    font-family: 'Noto Sans', sans-serif;
+    text-decoration: none;
+
+}
+
+.container5 a {
+    padding-right: 15px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: #e8e8e8;
+}
+
+.container5 a:hover {
+    padding-right: 15px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fcaf17;
+}
+
+select {
+    width: 103.3px;
+    height: 32px;
+    font-style: "Noto Sans";
+    color: white;
+    background-color: black;
+    font-size: 20px;
+    border: none;
+    position: relative;
+    cursor: pointer;
+    bottom: 75px;
+
+    left: 1300px;
+}
+
+
+.spanB {
+    position: relative;
+    left: 409px;
+    font-family: 'Noto Sans', sans-serif;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.spanC {
+    position: relative;
+    left: 958px;
+    font-family: 'Noto Sans', sans-serif;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.spanA {
+    position: relative;
+    right: 58px;
+    font-family: 'Noto Sans', sans-serif;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.span1 {
+    position: relative;
+    right: 8px;
+}
+
+.span2 {
+    position: relative;
+    right: 4px;
+}
+
+.span3 {
+    position: relative;
+    right: 2px;
+}
+
+.span4 {
+    position: relative;
+    right: -2px;
+}
+
+.container2 p {
+    font-family: 'Noto Sans', sans-serif;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 30px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.container3 p {
+    font-family: 'Noto Sans', sans-serif;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 30px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.container2 h5 {
+    font-family: 'Noto Sans', sans-serif;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    padding-left: 29px;
+    cursor: pointer;
+}
+
+.container3 h5 {
+    font-family: 'Noto Sans', sans-serif;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    padding-left: 29px;
+    cursor: pointer;
+}
